@@ -25,8 +25,8 @@ Route::get('/search',function(){
 
 });
 
-Route::get('/allstudents','feesController@searchAll');
-Route::post('/oneresult','feesController@searchOne');
+Route::get('/allstudents','FeesController@searchAll');
+Route::post('/oneresult','FeesController@searchOne');
 
 
 
